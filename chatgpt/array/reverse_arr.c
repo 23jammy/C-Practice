@@ -22,4 +22,8 @@ int main () {
     for (int i=0; i < n; i++) {
         printf("%d ", reversed_num[i]);
     }
+
+    free(reversed_num);
+
+    return 0;
 }
